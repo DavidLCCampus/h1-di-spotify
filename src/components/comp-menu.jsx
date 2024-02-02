@@ -1,6 +1,5 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import { Elementos_menu } from './elementos-menu'
 
 export function Menu() {
     return (
@@ -16,9 +15,9 @@ export function Menu() {
                 </div>
                 <hr className='w-3 my-7' />
                 <div className='flex flex-col space-y-2'>
-                    <Elementos_menu titulo="Premiun" />
-                    <Elementos_menu titulo="Ayuda" />
-                    <Elementos_menu titulo="Descargar" />
+                    <a href="#" className='active:text-gray-400'>Premium</a>
+                    <a href="#" className='active:text-gray-400'>Ayuda</a>
+                    <a href="#" className='active:text-gray-400'>Descargar</a>
                 </div>
             </div>
         </div>
