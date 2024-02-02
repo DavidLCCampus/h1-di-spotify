@@ -14,7 +14,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
       <div>
         <Inicio />
       </div>
-      <div className='px-3 py-3 md:bg-[#121212] md:w-full md:h-full md:mx-3 md:rounded-xl md:pl-6'>
+      <div className='px-3 py-3 md:bg-[#121212] md:w-full md:h-screen md:mx-3 md:rounded-xl md:pl-6'>
         <Barra_superior />
         <p className='font-bold text-sm md:text-xl'>Listas de Spotify</p>
         <div className='flex flex-col gap-12'>
