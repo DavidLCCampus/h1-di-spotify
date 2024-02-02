@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom/client'
 
 export function Header() {
     return (
-        <header className='bg-black'>
+        <header className='bg-black md:hidden'>
             <div className='flex px-3 h-11 items-center justify-between'>
                 <p>logo</p>
                 <div className='flex gap-3 justify-end '>
