@@ -4,7 +4,7 @@ import { InstagramSVG } from '../assets/iconosSVG'
 export function Info() {
     return (
         <>
-            <div className='flex flex-col gap-7  md:flex md:flex-row md:gap-16 '>
+            <div className='flex flex-col gap-7  lg:flex lg:flex-row lg:gap-16 '>
 
                 <div className='flex flex-col gap-2 '>
                     <p className='text-sm'>Empresa</p>
@@ -26,14 +26,14 @@ export function Info() {
                     <p className='text-sm text-[#878787]'>App gratis para móvil</p>
                 </div>
             </div>
-            <div className='flex gap-3 md:mr-7 '>
-                <div className='p-2 bg-[#181818] md:bg-[#2b2b2b] rounded-full h-8'>
+            <div className='flex gap-3 lg:mr-7 '>
+                <div className='p-2 bg-[#181818] lg:bg-[#2b2b2b] rounded-full h-8'>
                     <InstagramSVG />
                 </div>
-                <div className='p-2 bg-[#181818] md:bg-[#2b2b2b] rounded-full h-8'>
+                <div className='p-2 bg-[#181818] lg:bg-[#2b2b2b] rounded-full h-8'>
                     <InstagramSVG />
                 </div>
-                <div className='p-2 bg-[#181818] md:bg-[#2b2b2b] rounded-full h-8'>
+                <div className='p-2 bg-[#181818] lg:bg-[#2b2b2b] rounded-full h-8'>
                     <InstagramSVG />
                 </div>
             </div>

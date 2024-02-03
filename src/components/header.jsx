@@ -4,7 +4,7 @@ import { MenuSVG, SearchSVG, SpotifySVG } from '../assets/iconosSVG'
 
 export function Header() {
     return (
-        <div className='bg-black md:hidden w-full'>
+        <div className='bg-black lg:hidden w-full'>
             <div className='flex px-3 h-11 items-center justify-between'>
                 <SpotifySVG />
                 <div className='flex gap-3 justify-end '>
