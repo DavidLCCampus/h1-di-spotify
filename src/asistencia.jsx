@@ -1,22 +1,11 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 import './index.css'
+import { CabeceraSpotify } from './components/cabecera-spotify';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
     <>
-        {/* <div className='flex flex-col items-center lg:mt-32 justify-center gap-10'>
-        <h1 className='lg:text-4xl font-bold'>¿En qué podemos ayudarte?</h1>
-        <h1 className='lg:text-2xl '>Inicia sesión y te podremos ayudar antes</h1>
-        <div className='mt-10'>
-            <div className='bg-white w-96 p-2 rounded-md '>
-                <p className='text-slate-900'>Buscar</p>
-            </div>
-            <div className=''>
-
-            </div>
-        </div>
-    </div> */}
-
+        <CabeceraSpotify />
         <div className='mx-3  lg:flex mt-20'>
             <div className='grid grid-cols-1 gap-14 mx-auto lg:w-4/12'>
                 <h1 className='text-2xl lg:text-4xl'>¿En qué podemos ayudarte?</h1>
