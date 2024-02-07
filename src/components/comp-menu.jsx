@@ -15,8 +15,8 @@ export function Menu() {
                 </div>
                 <hr className='w-3 my-7' />
                 <div className='flex flex-col space-y-2'>
-                    <a href="#" className='active:text-gray-400'>Premium</a>
-                    <a href="#" className='active:text-gray-400'>Ayuda</a>
+                    <a href="premium.html" className='active:text-gray-400'>Premium</a>
+                    <a href="asistencia.html" className='active:text-gray-400'>Ayuda</a>
                     <a href="#" className='active:text-gray-400'>Descargar</a>
                 </div>
             </div>
