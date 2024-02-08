@@ -6,7 +6,7 @@ import { CabeceraSpotify } from './components/cabecera-spotify';
 ReactDOM.createRoot(document.getElementById('root')).render(
     <>
         <CabeceraSpotify />
-        <div className='mx-3  lg:flex mt-20'>
+        <div className='mx-8  lg:flex mt-5 mb-5'>
             <div className='grid grid-cols-1 gap-14 mx-auto lg:w-4/12'>
                 <h1 className='text-2xl lg:text-4xl'>¿En qué podemos ayudarte?</h1>
                 <div className="grid gap-5 lg:gap-10">

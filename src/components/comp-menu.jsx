@@ -11,7 +11,7 @@ export function Menu() {
             <div className='mx-10 my-5'>
                 <div className='flex flex-col space-y-4'>
                     <a className='text-xl font-bold active:text-gray-400' href="login.html">Iniciar sesión</a>
-                    <a className='text-xl font-bold active:text-gray-400' href="#">Regístrate</a>
+                    <a className='text-xl font-bold active:text-gray-400' href="register.html">Regístrate</a>
                 </div>
                 <hr className='w-3 my-7' />
                 <div className='flex flex-col space-y-2'>
