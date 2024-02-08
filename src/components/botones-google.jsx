@@ -4,9 +4,9 @@ import ReactDOM from 'react-dom/client'
 
 export function Botones_google({ link, titulo }) {
     return (
-        <button className='border border-white px-10 py-2 lg:px-20 rounded-full hover:bg-white hover:text-slate-900 transition-colors '>
+        <button className='border border-white px-10 py-3 lg:px-20 rounded-full hover:bg-white  transition-colors '>
 
-            <a href={`${link}`}>{titulo}</a>
+            <a className='font-bold text-gray-200 hover:text-slate-900' href={`${link}`}>{titulo}</a>
         </button>
     )
 }
