@@ -13,7 +13,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
                     <h1 className='text-lg lg:text-2xl font-bold text-gray-300'>
                         <a className='underline font-bold text-white' href="login.html">Iniciar sesión</a> y te podremos ayudar antes
                     </h1>
-                    <input type="text" placeholder="Buscar" className='py-3 rounded-md text-slate-900 placeholder:' />
+                    <input type="text" placeholder="Buscar" className='pl-3 py-3 rounded-md text-slate-900 ' />
                     <div className='grid gap-3'>
                         <div className='flex gap-3'>
                             <TarjetaAsistenciaRosa claseColor="bg-pink-500" texto="Ayuda con los pagos" />

@@ -12,7 +12,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
                 <h1 className='font-bold text-2xl text-center'>Regístrate en Spotify</h1>
                 <div className='grid gap-3'>
                     <input className='py-3 rounded-md border border-gray-300 bg-[#181818]
-                    placeholder:text-gray-400 placeholder:pl-3'
+                    placeholder:text-neutral-500 pl-3 text-neutral-300'
                         type="text" placeholder='Correo electrónico' />
                 </div>
                 <button className='bg-[#1FDF64] text-slate-900 rounded-full py-3'>

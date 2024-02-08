@@ -15,18 +15,18 @@ ReactDOM.createRoot(document.getElementById('root')).render(
                     <Botones_google link="https://www.facebook.com" titulo="Continuar con Facebook" />
                     <Botones_google link="https://www.apple.com" titulo="Continuar con Apple" />
                 </div>
-                <hr className='border-gray-600' />
+                <hr className='border-neutral-500' />
                 <div className='grid gap-3'>
                     <input className='py-3 rounded-md border border-gray-300 bg-[#181818]
-                    placeholder:text-gray-400 placeholder:pl-3'
+                    placeholder:text-neutral-500 pl-3 text-neutral-300'
                         type="text" placeholder='Correo electrónico o usuario' />
-                    <input type="text" className='placeholder:pl-3 placeholder:text-gray-400 
-                    py-3 rounded-md bg-[#181818] border border-gray-300 ' placeholder='Contraseña' />
+                    <input type="text" className='pl-3 placeholder:text-neutral-500 
+                    py-3 rounded-md bg-[#181818] border border-gray-300 text-neutral-300' placeholder='Contraseña' />
                 </div>
                 <button className='bg-[#1FDF64] text-slate-900 rounded-full py-3'>
                     <a className='text-lg font-bold' href="#">Iniciar sesión</a>
                 </button>
-                <hr className='border-gray-600' />
+                <hr className='border-neutral-500' />
                 <h1 className='text-neutral-500 text-center -mt-3'>¿No tienes cuenta? <a className='text-white underline font-bold' href='register.html'>Regístrate.</a></h1>
             </div>
         </div>
