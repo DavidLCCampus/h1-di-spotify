@@ -27,8 +27,6 @@ ReactDOM.createRoot(document.getElementById('root')).render(
               titulo="Dinner Jazz" />
             <Elementos_imagenes imagen="https://i.scdn.co/image/ab67706f00000002a98e80d2fc9b1cf3b80c4481"
               titulo="Dinner Jazz" />
-            {/* <Elementos_imagenes imagen="https://i.scdn.co/image/ab67706f00000002a98e80d2fc9b1cf3b80c4481"
-              titulo="Dinner Jazz" /> */}
           </div>
           <div className='flex flex-col gap-10 lg:flex lg:flex-row justify-between'>
             <Info />

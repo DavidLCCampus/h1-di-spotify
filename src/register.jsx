@@ -7,7 +7,7 @@ import { CabeceraSpotify } from './components/cabecera-spotify'
 ReactDOM.createRoot(document.getElementById('root')).render(
     <>
         <CabeceraSpotify />
-        <div className='mx-8 mt-5'>
+        <div className='mx-8 mt-5 xl:w-3/12 xl:mx-auto'>
             <div className="grid grid-cols-1 mx-auto gap-8">
                 <h1 className='font-bold text-2xl text-center'>Regístrate en Spotify</h1>
                 <div className='grid gap-3'>
@@ -15,7 +15,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
                     placeholder:text-neutral-500 pl-3 text-neutral-300'
                         type="text" placeholder='Correo electrónico' />
                 </div>
-                <button className='bg-[#1FDF64] text-slate-900 rounded-full py-3'>
+                <button className='bg-[#1FDF64] text-slate-900 rounded-full py-3 hover:bg-[#62e190] transition-colors'>
                     <a className='text-md font-bold' href="#">Siguiente</a>
                 </button>
                 <hr className='border-gray-500' />
@@ -25,7 +25,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
                     <Botones_google link="https://www.apple.com" titulo="Continuar con Apple" />
                 </div>
                 <hr className='border-gray-600' />
-                <h1 className='text-neutral-500'>¿Ya tienes una cuenta? <a className='text-white underline font-bold' href='login.html'>Inicia sesión aquí.</a></h1>
+                <h1 className='text-neutral-500 lg:text-center'>¿Ya tienes una cuenta? <a className='text-white underline font-bold' href='login.html'>Inicia sesión aquí.</a></h1>
             </div>
         </div>
     </>

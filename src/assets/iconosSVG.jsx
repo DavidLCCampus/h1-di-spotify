@@ -50,6 +50,8 @@ export function InstagramSVG() {
     )
 }
 
+
+
 export function HomeSVG() {
     return (
         <svg fill='gray' data-encore-id="icon" role="img" aria-hidden="true" class="w-6 h-6 Svg-sc-ytk21e-0 bneLcE home-icon"
